@@ -5,10 +5,10 @@ This application will use React and Redux to allow a user to add items to the Ko
 ## Base Requirements
 
 - Create a new React app with `create-react-app`
-- Bring in `redux`
+- Bring in `redux` and `react-redux`
 - Set up your `store` and `Provider`
 - Create an input form that allows the user to add a snack (as a string) to an array. 
-  - This form will issue an `action` and run a `reducer`. This reducer needs to add this new item to an array of snack items.
+  - This form will `dispatch` an `action` and run a `reducer`. This reducer needs to add this new item to an array of snack items.
 - Display this list of snacks on the DOM with another component.
 
 ## Note
