@@ -11,10 +11,12 @@ This application will use React and Redux to allow a user to add items to the Ko
   - This form will `dispatch` an `action` and run a `reducer`. This reducer needs to add this new item to an array of snack items.
 - Display this list of snacks on the DOM with another component.
 
-Remember to `connect` each component that needs access to the Redux Store and Reducers! 
+Remember to `connect` and `mapReduxStateToProps` in each component that needs access to the Redux Store and Reducers! 
 
 ```
-export default connect()(ComponentClassName);
+const mapReduxStateToProps = reduxState => ({reduxState});
+
+export default connect(mapReduxStateToProps)(ComponentClassName);
 ```
 
 ## Note
