@@ -35,4 +35,3 @@ The long-term goal is to move things to components, but the focus here is to dis
 - Break the above into components for the form and the display if you have not already done so.
 - Add a subcomponent for a `SnackItem` to display each snack.
 - Add another input for the name of the person who provided the snack. Make sure this shows up on the DOM as well.
-- Bring in `react-router-dom` for client side routing. Move the Form component into its own view/route. Move the listing display into another view/route.
