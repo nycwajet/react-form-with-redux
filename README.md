@@ -1,6 +1,6 @@
 # React Form with Redux
 
-This application will use React and Redux to allow a user to add items to the Kochab snack table.
+This application will use React and Redux to allow a user to add items to the Menkar snack table.
 
 ## Base Requirements
 
