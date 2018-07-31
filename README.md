@@ -1,6 +1,6 @@
 # React Form with Redux
 
-This application will use React and Redux to allow a user to add items to the Menkar snack table (praise the whale).
+This application will use React and Redux to allow a user to add items to the snack table.
 
 ## Base Requirements
 
