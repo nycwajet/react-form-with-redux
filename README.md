@@ -6,7 +6,7 @@ This application will use React and Redux to allow a user to add items to the sn
 
 - Fork and clone this repository
 - Run `npm install`
-- Start the client `npm run client` adn `npm run server`
+- Start the client `npm run client` and `npm run server`
 - Bring in `redux`, `react-redux` and `redux-logger`
 - Set up your `store` and `Provider`
 - Create an input form component that allows the user to add a snack (as a string) to an array. 
